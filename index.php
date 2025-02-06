@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $dni = new DNI($numeroDNI); // Instanciar la clase DNI
         $dniConLetra = $dni->getDNIConLetra();
     } else {
-        $dniConLetra = "Por favor, introduce un número de DNI válido de 8 dígitos.";
+        $dniConLetra = "Por favor, introduce un número de DNI válido de 8 dígidtos.";
     }
 }
 ?>
